@@ -2,6 +2,7 @@ import './App.css';
 import { Component } from 'react';
 import Header from './components/header/Index'
 import Card from './components/Card/index'
+import Box from './components/Box';
 
 
 
@@ -11,6 +12,9 @@ export default class App extends Component {
             <>
                 <Header/>
                 <Card name='flavio'/>
+                <Box>
+                    <h1>doisaidoasidso</h1>
+                </Box>
             </>
         )
     }
