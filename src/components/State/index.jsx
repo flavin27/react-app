@@ -14,7 +14,7 @@ export default class State extends Component {
     render() {
         return(
             <div>
-                <p>LIgado: {this.state.ligado ? 'sim':'nao'}</p>
+                <p>Ligado: {this.state.ligado ? 'sim':'nao'}</p>
                 <p>Quantidade: {this.state.numero}</p>
                 <button onClick= {() => this.botao()}>
                     {this.state.ligado ? 'desligar' :'ligar'}
