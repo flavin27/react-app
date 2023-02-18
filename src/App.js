@@ -4,6 +4,7 @@ import Header from './components/header/Index'
 import Card from './components/Card/index'
 import Box from './components/Box';
 import State from './components/State';
+import Hook from './components/Hook'
 
 
 
@@ -17,6 +18,7 @@ export default class App extends Component {
                     <h1>doisaidoasidso</h1>
                 </Box>
                 <State/>
+                <Hook/>
             </>
         )
     }
