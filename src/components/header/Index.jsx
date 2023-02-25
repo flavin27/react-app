@@ -8,10 +8,9 @@ export default class Header extends Component{
                     <p>Olá mundo!</p>
                 </header>
                 <section>
-                    <p>To meio sem ideia.</p>
+                    <p>To meio sem ideia. </p>
                 </section>
             </>
-
         )
     }
 }
