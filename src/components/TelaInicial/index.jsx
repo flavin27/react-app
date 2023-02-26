@@ -4,6 +4,6 @@ import './styles.css'
 export const TelaInicial = (props) => {
     console.log(props)
     return (
-        <h1>fdsfdsfsdf</h1>
+        <h1>Futura Home</h1>
     )
 }
